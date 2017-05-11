@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{75836FC3-28EF-40EA-B354-A31DDC9D8E07}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyGreatGame/Model/Player.cs">
+    <Files>
+      <File FileName="MyGreatGame/Model/Player.cs" Line="21" Column="4" />
+      <File FileName="MyGreatGame/Controller/MyGreatGame.cs" Line="19" Column="21" />
+      <File FileName="MyGreatGame/Controller/Program.cs" Line="17" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MyGreatGame PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
