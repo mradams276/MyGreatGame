@@ -5,6 +5,8 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
 using Halo6.Model;
+// Represents the player 
+
 
 namespace Halo6.Controller
 {
@@ -15,6 +17,10 @@ namespace Halo6.Controller
 	{
 		GraphicsDeviceManager graphics;
 		SpriteBatch spriteBatch;
+		private Player player;
+
+		// Initialize the player class
+
 
 		public Halo6()
 		{
@@ -30,7 +36,7 @@ namespace Halo6.Controller
 		/// </summary>
 		protected override void Initialize()
 		{
-			// TODO: Add your initialization logic here
+			player = new Player();
 
 			base.Initialize();
 		}
@@ -43,6 +49,10 @@ namespace Halo6.Controller
 		{
 			// Create a new SpriteBatch, which can be used to draw textures.
 			spriteBatch = new SpriteBatch(GraphicsDevice);
+// Load the player resources 
+Vector2 playerPosition = new Vector2(GraphicsDevice.Viewport.TitleSafeArea.X, GraphicsDevice.Viewport.TitleSafeArea.Y + GraphicsDevice.Viewport.TitleSafeArea.Height / 2);
+
+player.Initialize(Content.Load<Texture2D>("Texture/player"), playerPosition);
 
 			//TODO: use this.Content to load your game content here 
 		}
@@ -72,9 +82,14 @@ namespace Halo6.Controller
 		/// <param name="gameTime">Provides a snapshot of timing values.</param>
 		protected override void Draw(GameTime gameTime)
 		{
-			graphics.GraphicsDevice.Clear(Color.CornflowerBlue);
+			graphics.GraphicsDevice.Clear(Color.Purple);
 
-			//TODO: Add your drawing code here
+			// Start drawing 
+spriteBatch.Begin(); 
+// Draw the Player 
+player.Draw(spriteBatch); 
+// Stop drawing 
+spriteBatch.End();
 
 			base.Draw(gameTime);
 		}

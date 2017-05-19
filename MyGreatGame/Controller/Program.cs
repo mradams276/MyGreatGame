@@ -11,7 +11,7 @@ using UIKit;
 #endif
 #endregion
 
-namespace Halo6
+namespace Halo6.Controller
 {
 #if __IOS__ || __TVOS__
     [Register("AppDelegate")]
