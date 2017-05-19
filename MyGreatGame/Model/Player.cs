@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace MyGreatGame.Model
+namespace Halo6.Model
 	{
 	public class Player
 		{

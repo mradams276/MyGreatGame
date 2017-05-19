@@ -4,19 +4,19 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-using MyGreatGame.Model;
+using Halo6.Model;
 
-namespace MyGreatGame.Controller
+namespace Halo6.Controller
 {
 	/// <summary>
 	/// This is the main type for your game.
 	/// </summary>
-	public class MyGreatGame : Game
+	public class Halo6 : Game
 	{
 		GraphicsDeviceManager graphics;
 		SpriteBatch spriteBatch;
 
-		public MyGreatGame()
+		public Halo6()
 		{
 			graphics = new GraphicsDeviceManager(this);
 			Content.RootDirectory = "Content";

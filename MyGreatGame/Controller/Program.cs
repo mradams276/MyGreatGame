@@ -11,7 +11,7 @@ using UIKit;
 #endif
 #endregion
 
-namespace MyGreatGame
+namespace Halo6
 {
 #if __IOS__ || __TVOS__
     [Register("AppDelegate")]
@@ -20,11 +20,11 @@ namespace MyGreatGame
 	static class Program
 #endif
 	{
-		private static MyGreatGame game;
+		private static Halo6 game;
 
 		internal static void RunGame()
 		{
-			game = new MyGreatGame();
+			game = new Halo6();
 			game.Run();
 #if !__IOS__ && !__TVOS__
 			game.Dispose();
