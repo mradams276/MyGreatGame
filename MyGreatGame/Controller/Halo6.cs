@@ -5,7 +5,10 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
 using Halo6.Model;
+using Halo6.View;
 // Represents the player 
+
+
 
 
 namespace Halo6.Controller

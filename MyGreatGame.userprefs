@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{75836FC3-28EF-40EA-B354-A31DDC9D8E07}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="MyGreatGame/View/Animation.cs">
     <Files>
-      <File FileName="MyGreatGame/Controller/Halo6.cs" Line="125" Column="24" />
+      <File FileName="MyGreatGame/Controller/Halo6.cs" Line="93" Column="4" />
       <File FileName="MyGreatGame/Controller/Program.cs" Line="14" Column="18" />
-      <File FileName="MyGreatGame/Model/Player.cs" Line="27" Column="2" />
-      <File FileName="MyGreatGame/View/Animation.cs" Line="2" Column="22" />
+      <File FileName="MyGreatGame/Model/Player.cs" Line="70" Column="3" />
+      <File FileName="MyGreatGame/View/Animation.cs" Line="50" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
